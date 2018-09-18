@@ -1,10 +1,11 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Backend') {
       steps {
         sh '''Date
 Echo "Build Stage completed"'''
+        sh 'Echo Success'
       }
     }
   }
